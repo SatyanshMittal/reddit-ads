@@ -180,7 +180,7 @@ export default function Home() {
         </div>
 
         {/* scroll cue */}
-        {/* <div className="scroll-cue" aria-hidden="true" /> */}
+        <div className="scroll-cue" aria-hidden="true" />
       </header>
 
       <div className="hr" />
