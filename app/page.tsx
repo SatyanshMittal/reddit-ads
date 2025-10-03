@@ -3,13 +3,6 @@ import React, { useEffect, useRef } from "react";
 import Blob from "@/components/ui/backgrounds/Blob";
 import { SparklesText } from "@/components/ui/sparkles-text";
 
-const svg_one = () => {
-  return (
-    <div>
-      <svg></svg>
-    </div>
-  )
-}
 
 export default function Home() {
   const heroBgRef = useRef<HTMLDivElement | null>(null);
